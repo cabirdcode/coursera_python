@@ -1,0 +1,10 @@
+xhrs = input("Enter Hours:")
+xh = float(xhrs)
+xrph = raw_input("Enter Rate per Hour:")
+xr = float(xrph)
+if ((xh < 0) or (xr < 0)):
+   print ("Use positive numbers.")
+elif 0 < xh <=40:
+    print (xh * xr)
+elif xh > 40:
+    print (40 * xr + (xh-40)*xr*1.5)
