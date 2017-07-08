@@ -5,7 +5,7 @@ You should use input to read a string and float() to convert the string to a num
 
 xhrs = input("Enter Hours:")
 xh = float(xhrs)
-xrph = raw_input("Enter Rate per Hour:")
+xrph = input("Enter Rate per Hour:")
 xr = float(xrph)
 if ((xh < 0) or (xr < 0)):
    print ("Please use positive numbers.")
