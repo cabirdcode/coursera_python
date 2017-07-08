@@ -1,4 +1,4 @@
-#3.3 Write a program to prompt the user for a score using raw_input. 
+# Write a program to prompt the user for a score using raw_input. 
 #If the user enters a value out of range, print a suitable error message and exit. 
 #For the test, enter a score of 0.85.
 try:
